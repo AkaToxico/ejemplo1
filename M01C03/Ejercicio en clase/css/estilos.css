@@ -1,0 +1,36 @@
+.losmalos{
+    background-color: red
+}
+
+.rebeldes{
+    background-color: blue
+}
+
+#darth{
+    font-size: 40px;
+
+}
+
+#luke{
+    font-style: italic;
+}
+
+.soldados{
+
+    letter-spacing: 2px;
+
+    border: 2px solid black;
+  
+}
+
+.apoyo{
+    text-align: center;
+}
+
+.naves{
+    text-transform: uppercase;
+}
+
+#fondo{
+    background-image: url(https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_1280.png);
+}
