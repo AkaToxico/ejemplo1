@@ -1,4 +1,4 @@
-div {
+div { 
     border-color: red;
     border-width: 2px;
     border-style: solid;
@@ -11,11 +11,11 @@ span {
 }
 
 h1 {
+    /*font-size: 100px;*/
+    /*font-size: 50%;*/
     font-size: 3rem;
 }
 
-html {
+html{
     font-size: 100px;
 }
-
-
