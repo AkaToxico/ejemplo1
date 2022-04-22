@@ -4,7 +4,7 @@ html{
 }
 
 .div1{
-    background-color: darkmagenta;
+    background-color:darkmagenta;
     padding: 5px;
     margin-top: 50px;
     width: 500px;
@@ -13,11 +13,14 @@ html{
 }
 
 .div2{
-    background-color: darkmagenta;
+    background-color:darkmagenta;
 }
 
 .divInterno{
-    box-sizing: content-box;
+    width: 100%;
+    box-sizing:border-box;
     background-color: blue;
-
+    border-color: yellow;
+    border-width: 5px;
+    border-style: solid;
 }
