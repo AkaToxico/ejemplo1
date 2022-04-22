@@ -12,29 +12,33 @@ img {
     margin-left: 1px;
 }
 
-p {
-    font-size: 40px;
-}
 
 body {
 
     font-family: 'Square Peg', cursive;
     text-align: center;
+    
 }
 
-h1 {
+.x {
     width:10%;
     text-transform: uppercase;
     border-width: 2px;
     border-color: red;
     border-style: solid;
-    padding-top: 10px;
-    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+    margin: auto;
+
 }
 
 html {
 
     background-color: black;
     color: white;
+}
+
+h2 {
+    text-align: center;
 }
 
