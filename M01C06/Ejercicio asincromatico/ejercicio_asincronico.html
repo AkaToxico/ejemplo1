@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <!-- nav -->
+    <nav class="navbar navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Mi amigo imaginario</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Mi amigo imaginario</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Durmiendo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Travieso</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Paseo
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                    <li><a class="dropdown-item" href="#">Parque</a></li>
+                    <li><a class="dropdown-item" href="#">Patio</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+<br><br><br><br><br><br>
+<!-- card  -->
+
+<div class="col-auto p-5 text-center" style="text-align: center;">
+    <div class="card" style="width: 18rem">
+        <img src="img/buena.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Parque</h5>
+        <p class="card-text">Jugando en el paseo al parque</p>
+        <a href="#" class="btn btn-primary">Jugar</a>
+    </div>
+</div>
+</div>
+
+<br>
+
+<!-- formulario -->
+
+<div class="container">
+    <div class="row align-items-start"">
+      <div class="col">
+        <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">No comparta su correo electronico</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+        
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Estas de acuerdo con enviar informacion</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+      </div>
+      <div class="col">
+        <p>El bulldog o bulldog inglés —en inglés: English Bulldog— es una raza canina originaria del Reino Unido. Su ancestro, conocido como el Antiguo Bulldog Inglés, fue utilizado en peleas de perros con toros hasta mediados del siglo XVII, aunque en 1835 esta práctica fue prohibida en Reino Unido.​</p>
+      </div>
+      <div class="col">
+        <p>El término bulldog fue citado por primera vez alrededor del año 1500 en una carta que pedía el envío de "dos buenos bulldogs".7​ El término "Bull-dog" deriva de la función en que perros de este tipo eran utilizados, o sea, para la guardia y el control del ganado bravo y la lucha con toros para entretenimiento.6</p>
+      </div>
+    </div>
+  </div>
+
+    
+</body>
+</html>
